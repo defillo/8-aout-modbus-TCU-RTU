@@ -33,4 +33,5 @@ for RTU use ONLY max485 chip. comm is half duplex, bus is always in RX, goes in 
 
 
 
-
+issued upon "The Creative Commons Non-Commercial (NC) clause"
+it allows others to copy, distribute, display, and perform your work – and derivative (i.e. modified) works based upon your work – but the work cannot be used for commercial purposes.
