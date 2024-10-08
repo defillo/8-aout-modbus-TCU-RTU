@@ -12,13 +12,15 @@ max update rate 2 Hz
 
 end of scale pre-trimmered. can be adjusted by software
 
+used a 28 pin MCU but a 20pin such as PIC18F15Q40 can be used. cheaper but more than enough. need to be redesigned the PCB and recompiled the formware
 if using TCP IP address can be assigned from browser. access to 192.168.0.7 admin admin than go to the LOCAL IP config tab. set in serial port tab local port 502 and select TCP server 
 
 
 Power supply: DC IN 12..28V
 
 Inverse plarity protection
-
+RTU mode is 19200,n,8,1
+to change baudrate requires recompile. it should be possible to change by software, if someone need this I can add this function. just ask
 to set node address in RTU mode, issue a FCT6 command, node 1, to address 200 with node address as value. unit must be the only one on the net
 
 to set gain select the channel and send an FCT6 command to address 100+channel, 3290 + offset until you get 10.00 volt in output
